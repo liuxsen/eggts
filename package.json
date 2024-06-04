@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "egg": {
+    "typescript": true,
+    "declarations": true
+  },
   "scripts": {
     "dev": "egg-bin dev"
   },
@@ -12,5 +16,9 @@
   "dependencies": {
     "egg": "^3.23.0",
     "egg-bin": "^6.9.0"
+  },
+  "devDependencies": {
+    "@eggjs/tsconfig": "^1.3.3",
+    "typescript": "^5.4.5"
   }
 }
