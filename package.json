@@ -1,0 +1,16 @@
+{
+  "name": "eggjs-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^3.23.0",
+    "egg-bin": "^6.9.0"
+  }
+}
